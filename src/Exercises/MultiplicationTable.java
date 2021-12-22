@@ -1,6 +1,6 @@
-package test;
+package Exercises;
 
-public class tablicaMnozenja {
+public class MultiplicationTable {
     public static void main(String[] args) {
         System.out.println("Vježba - Tablica množenja");
         for (int okvir = 0; okvir < 25; okvir++) {

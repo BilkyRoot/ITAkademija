@@ -1,6 +1,6 @@
-package test;
+package Exercises;
 
-public class tabela {
+public class Table {
     public static void main(String[] args) {
         System.out.println("Vježba - Tabela");
         int visina, sirina, slika;

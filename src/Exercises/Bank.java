@@ -1,8 +1,8 @@
-package test;
+package Exercises;
 
 import java.util.Scanner;
 
-public class banka {
+public class Bank {
     public static void main(String[] args) {
         System.out.println("------------------------------------------------------");
         System.out.println("\t\t\t\t\tUnicreditBank");

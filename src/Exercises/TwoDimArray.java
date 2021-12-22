@@ -1,9 +1,9 @@
-package test;
+package Exercises;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class dvoDimenzionalniNiz {
+public class TwoDimArray {
     public static void main(String[] args) {
 
         // NIZ NAPRAVLJEN POMOĆU RANDOM GENERATORA
