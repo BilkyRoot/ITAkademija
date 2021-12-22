@@ -32,7 +32,10 @@ public class Bank {
         } else if (optionValue==2) {
             charge.setCharge(charge.getCharge());
         } else {
+            design.setTerminalAppearance();
             System.out.println("Nepoznata opcija!");
+            design.setTerminalAppearance();
+            System.out.println("Program se zatvara...");
         }
 
        // END OF PROGRAM

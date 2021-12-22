@@ -47,11 +47,13 @@ public class Card {
        Scanner transactionValue = new Scanner(System.in);
        double value2 = transactionValue.nextDouble();
        setTerminalAppearance();
-            if ((value2>=1) && (value2<=startBalance)) {
+            if ((value2>=10) && (value2<=startBalance)) {
                 double newCardBalance = startBalance - value2;
                 System.out.println("Transakcija je uspješno završena!");
                 System.out.printf("Novo stanje Vašeg računa: %.2fKM", newCardBalance);
                 System.out.println();
+            } else if (value2<10) {
+                System.out.println("Neuspješna transakcija, minimalan iznozs za obavljanje transakcije je 10KM");
             } else {
                 System.out.println("Transkacija se ne može izvršiti, nemate dovoljno sredstava na Vašem računu!");
             }
