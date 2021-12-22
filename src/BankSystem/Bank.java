@@ -7,14 +7,17 @@ import java.util.Scanner;
 public class Bank {
     public static void main(String[] args) {
 
-        // OSNOVNI IMPORT
+        // BASIC IMPORT
 
         Scanner value = new Scanner(System.in);
+
+        // NEW VARIABLES OF DATA TYPES
+
         Card design = new Card();
         Card balance = new Card();
         Card charge = new Card();
 
-        // POČETAK PROGRAMA
+        // BEGINNING OF THE PROGRAM
 
         design.setTerminalAppearance();
         System.out.println("\t\t\t\t\tBankovni Sistem");
@@ -31,6 +34,8 @@ public class Bank {
         } else {
             System.out.println("Nepoznata opcija!");
         }
+
+       // END OF PROGRAM
 
     }
 }
