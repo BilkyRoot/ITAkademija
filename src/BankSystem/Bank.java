@@ -11,7 +11,7 @@ public class Bank {
 
         Scanner value = new Scanner(System.in);
 
-        // NEW VARIABLES OF DATA TYPES
+        // VARIABLES
 
         Card design = new Card();
         Card balance = new Card();
