@@ -53,7 +53,7 @@ public class Card {
                 System.out.printf("Novo stanje Vašeg računa: %.2fKM", newCardBalance);
                 System.out.println();
             } else {
-                System.out.println("Transkacija se ne može izvršiti, nemate dovoljno sredstava na Vašem računu");
+                System.out.println("Transkacija se ne može izvršiti, nemate dovoljno sredstava na Vašem računu!");
             }
             setTerminalAppearance();
             System.out.println("Program se zatvara...");
